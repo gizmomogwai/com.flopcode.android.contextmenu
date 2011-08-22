@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+    <com.flopcode.android.contextmenu.demo.MyView
+      android:id="@+id/top"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="#ffff0000"
+      android:layout_gravity="center" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <com.flopcode.android.contextmenu.demo.MyView
+      android:id="@+id/left"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="#ffffff00"
+      android:gravity="left"
+      android:layout_weight="1" />
+    <com.flopcode.android.contextmenu.demo.MyView
+      android:id="@+id/center"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="#ff0000ff"
+      android:layout_weight="1" />
+    <com.flopcode.android.contextmenu.demo.MyView
+      android:id="@+id/right"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="#ffffffff"
+      android:gravity="right"
+      android:layout_weight="1" />
+
+  </LinearLayout>
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+    <com.flopcode.android.contextmenu.demo.MyView
+      android:id="@+id/bottom"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="#ff00ffff" />
+  </LinearLayout>
+</LinearLayout>
